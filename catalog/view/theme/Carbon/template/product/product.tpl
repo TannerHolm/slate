@@ -1,10 +1,8 @@
-<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
-<div id="content"><?php echo $content_top; ?>
-  <div class="breadcrumb">
-    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
-    <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
-    <?php } ?>
-  </div>
+<?php echo $header; ?>
+<!-- <?php echo $column_left; ?> -->
+<!-- <?php echo $column_right; ?> -->
+<div id="content">
+<?php echo $content_top; ?>
   <h1><?php echo $heading_title; ?></h1>
   <div class="product-info">
     <?php if ($thumb || $images) { ?>
@@ -33,7 +31,7 @@
             <td><?php echo $text_model; ?></td><td><?php echo $model; ?></td>
           </tr>
           <tr>
-            <td><?php echo $text_reward; ?></td><td><?php echo $reward; ?></td>
+            <!-- <td><?php echo $text_reward; ?></td><td><?php echo $reward; ?></td> -->
           </tr>
           <tr>
             <td><?php echo $text_stock; ?></td><td><?php echo $stock; ?></td>
@@ -51,7 +49,7 @@
         <span class="price-old"><?php echo $price; ?></span> <span class="price-new"><?php echo $special; ?></span>
         <?php } ?>
         <br />
-        <?php if ($tax) { ?>
+     <!--    <?php if ($tax) { ?>
         <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
         <?php } ?>
         <?php if ($points) { ?>
@@ -64,9 +62,9 @@
           <?php echo sprintf($text_discount, $discount['quantity'], $discount['price']); ?><br />
           <?php } ?>
         </div>
-        <?php } ?>
+        <?php } ?> -->
       </div>
-      <?php } ?>
+     <!--  <?php } ?>
       <?php if ($options) { ?>
       <div class="options">
         <h2><?php echo $text_option; ?></h2>
@@ -89,8 +87,8 @@
             <?php } ?>
           </select>
         </div>
-        <br />
-        <?php } ?>
+        <br /> -->
+       <!--  <?php } ?>
         <?php if ($option['type'] == 'radio') { ?>
         <div id="option-<?php echo $option['product_option_id']; ?>" class="option">
           <?php if ($option['required']) { ?>
@@ -190,7 +188,7 @@
         <?php } ?>
         <?php } ?>
       </div>
-      <?php } ?>
+      <?php } ?> -->
       <div class="cart">
         <div><?php echo $text_qty; ?>
           <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />

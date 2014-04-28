@@ -193,7 +193,6 @@ class ControllerCommonHome extends Controller {
 			$this->model_localisation_currency->updateCurrencies();
 		}
 		
-		$this->data['ads'] = json_decode(file_get_contents('http://carbon.opencartstore.com/ads.php'));
 		
 		$this->template = 'common/home.tpl';
 		$this->children = array(

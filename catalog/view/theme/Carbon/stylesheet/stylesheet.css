@@ -86,6 +86,9 @@ label {
 	width: 250px;
 }
 #content {
+	background: #454A51;
+	margin-left: 10%;
+	margin-right: 10%;
 	min-height: 650px;
 	margin-bottom: 25px;
 	-moz-border-radius: 5px;
@@ -162,7 +165,7 @@ label {
 	text-decoration: none;
 }
 #cart-link {
-	color: #fff;
+	color: #C8C8C8;
 }
 #header #cart {
 	color: #999;
@@ -258,6 +261,7 @@ label {
 }
 #header #cart .content .checkout {
 	text-align: right;
+	vertical-align: center;
 	clear: both;
 }
 #header #cart .empty {
@@ -325,13 +329,13 @@ label {
 #menu {
 	position: absolute;
 	display: block;
-	background: #a82c2d;
+	background:#0E0E0E;
 	border-bottom: 1px solid #000000;
 	height: 40px;
-	width: 100%;
-	top: 105px;
+	/*width: 100%;*/
+	top: 52px;
 	padding: 0px;
-	font-family: 'Play', sans-serif;
+	font-family: 'Arial', sans-serif;
 	text-transform: uppercase;
 	-moz-border-radius: 0px 0px 5px 5px;
 	-khtml-border-radius: 0px 0px 5px 5px;
@@ -583,18 +587,18 @@ a.button:hover, input.button:hover {
 	margin-right: auto;
 }
 .htabs {
-	height: 30px;		
-	line-height: 16px;
+	height: 60px;		
+	line-height: 32px;
 	border-bottom: 1px solid #DDDDDD;	
 }
 .htabs a {
-	border-top: 1px solid #DDDDDD;
-	border-left: 1px solid #DDDDDD;
-	border-right: 1px solid #DDDDDD; 
+	/*border-top: 1px solid #DDDDDD;*/
+	/*border-left: 1px solid #DDDDDD;*/
+	/*border-right: 1px solid #DDDDDD; */
 	background: #FFFFFF url('../image/tab.png') repeat-x;
 	padding: 7px 15px 6px 15px;
 	float: left;
-	font-family: 'Play', sans-serif;
+	font-family: 'Arial', sans-serif;
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: bold;
@@ -790,8 +794,7 @@ a.button:hover, input.button:hover {
 }
 /* content */
 #content {
-	padding: 10px 20px;
-	background: #fff;
+	padding: 20px 40px;
 	-moz-box-shadow: 0px 7px 7px #000;
 	-webkit-box-shadow: 0px 7px 7px #000;
 	box-shadow: 0px 7px 7px #000;
@@ -833,6 +836,7 @@ a.button:hover, input.button:hover {
 	text-decoration: underline;
 	font-weight: bold;
 }
+
 /* manufacturer */
 .manufacturer-list {
 	border: 1px solid #DBDEE1;
@@ -868,7 +872,7 @@ a.button:hover, input.button:hover {
 	margin-right: 15px;
 	float: left;
 	padding-top: 4px;
-	color: #333;
+	color: black;
 }
 .product-filter .display a {
 	font-weight: bold;
@@ -1040,7 +1044,7 @@ a.button:hover, input.button:hover {
 .product-info {
 	overflow: auto;
 	margin-bottom: 20px;
-	color: #9C9C9C;
+	color: white;
 }
 .product-info > .left {
 	float: left;
@@ -1077,13 +1081,13 @@ a.button:hover, input.button:hover {
 	padding: 5px 5px 10px 5px;
 	margin-bottom: 10px;
 	line-height: 18px;
-	color: #9C9C9C;
+	color: white;
 	width: 80%;
 }
 .product-info .description a {
-	color: #000;
+	color: white;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 }
 .product-info .price {
 	overflow: auto;
@@ -1095,7 +1099,7 @@ a.button:hover, input.button:hover {
 	font-family: 'Play', sans-serif;
 	text-transform: uppercase;
 	line-height: 30px;
-	color: #333333;
+	color: #fff;
 }
 .product-info .price-old {
 	padding: 5px 15px;
@@ -1111,23 +1115,23 @@ a.button:hover, input.button:hover {
 .product-info .price-tax {
 	font-size: 12px;
 	font-weight: normal;
-	color: #999;
+	color: #C8C8C8;
 }
 .product-info .price .reward {
 	font-size: 12px;
 	font-weight: normal;
-	color: #999;
+	color: #C8C8C8;
 }
 .product-info .price .discount {
 	font-weight: normal;
 	font-size: 12px;
-	color: #4D4D4D;
+	color: #C8C8C8;
 }
 .product-info .options {
 	border-bottom: 1px solid #E7E7E7;
 	padding: 0px 5px 10px 5px;
 	margin-bottom: 10px;
-	color: #000000;
+	color: #fff;
 }
 .product-info .cart {
 	border-bottom: 1px solid #E7E7E7;
@@ -1741,4 +1745,11 @@ a.button:hover, input.button:hover {
 }
 .banner div img {
 	margin-bottom: 20px;
+}
+
+
+/*CUSTOM STYLES*/
+.logged-in{
+
+	text-align: center;
 }

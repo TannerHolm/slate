@@ -13,4 +13,4 @@ $('#carousel<?php echo $module; ?> ul').jcarousel({
 	visible: <?php echo $limit; ?>,
 	scroll: <?php echo $scroll; ?>
 });
-//--></script>
+</script>

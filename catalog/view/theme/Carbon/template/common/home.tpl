@@ -1,7 +1,65 @@
-<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
+<?php echo $header; ?>
 <div id="home-content">
-	<?php echo $content_top; ?>
-	<h1 style="display: none;"><?php echo $heading_title; ?></h1>
-	<?php echo $content_bottom; ?>
+
+<div class="container">
+
+  <hr>
+ 
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="/public" class="ready">
+             <img src="http://placehold.it/800x600" class=" img-responsive"><span>More From This Category</span>
+        </a>
+    </div>
+  </div>
+  <hr>
+    <br><br>
+</div>
+
+
+
+
+
+
 </div>
 <?php echo $footer; ?>

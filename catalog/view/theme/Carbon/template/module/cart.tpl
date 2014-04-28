@@ -1,10 +1,9 @@
 <div id="cart">
-  <div class="heading">
-    <h4><?php echo $heading_title; ?></h4>
-    <a><span id="cart-total"><?php echo $text_items; ?></span></a></div>
+  <div style="padding:0px 5px 0px 5px;">
+    <a><span><?php echo $text_items; ?></span></a></div>
   <div class="content">
     <?php if ($products || $vouchers) { ?>
-    <div class="mini-cart-info">
+   <!--  <div class="mini-cart-info">
       <table>
         <?php foreach ($products as $product) { ?>
         <tr>
@@ -32,8 +31,8 @@
         </tr>
         <?php } ?>
       </table>
-    </div>
-    <div class="mini-cart-total">
+    </div> -->
+   <!--  <div class="mini-cart-total">
       <table>
         <?php foreach ($totals as $total) { ?>
         <tr>
@@ -42,7 +41,7 @@
         </tr>
         <?php } ?>
       </table>
-    </div>
+    </div> -->
     <div class="checkout"><a href="<?php echo $cart; ?>"><?php echo $text_cart; ?></a> | <a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></div>
     <?php } else { ?>
     <!-- <div class="empty"><?php echo $text_empty; ?></div> -->

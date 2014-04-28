@@ -22,6 +22,7 @@
 <script type="text/javascript" src="catalog/view/javascript/jquery/ui/external/jquery.cookie.js"></script>
 <script type="text/javascript" src="catalog/view/javascript/jquery/colorbox/jquery.colorbox.js"></script>
 <script type="text/javascript" src="catalog/view/javascript/jquery/tabs.js"></script>
+<script type="text/javascript" src="catalog/view/theme/Carbon/stylesheet/index.js"></script>
 <script type="text/javascript" src="catalog/view/javascript/common.js"></script>
 <script type="text/javascript" src="catalog/view/javascript/carbon-custom.js"></script>
 
@@ -31,6 +32,8 @@
 
 <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/Carbon/stylesheet/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/Carbon/stylesheet/style.css" />
+<link rel="stylesheet" type="text/css" href="catalog/view/theme/Carbon/stylesheet/slate.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/Carbon/stylesheet/bootstrap-slate.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/javascript/jquery/colorbox/colorbox.css" media="screen" />
@@ -75,12 +78,11 @@ DD_belatedPNG.fix('#logo img');
 
 
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li> <div>
+        <li> <div class="logged-in">
         <?php if (!$logged) { ?>
-          <!-- <?php echo $text_welcome; ?> -->
+          <?php echo $text_welcome; ?> 
         <?php } else { ?>
           <?php echo $text_logged; ?>
         <?php } ?>
@@ -89,9 +91,9 @@ DD_belatedPNG.fix('#logo img');
       <ul class="nav navbar-nav navbar-right">
         <li><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a></li>
         <li><a href="<?php echo $wishlist; ?>" id="wishlist_total"><?php echo $text_wishlist; ?></a></li>
+        <li><?php echo $cart; ?></li>
         <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
         <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li>
-        <li><?php echo $cart; ?></li>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" name="search" placeholder="<?php echo $text_search; ?>" value="<?php echo $search; ?>" />

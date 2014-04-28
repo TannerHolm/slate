@@ -7,7 +7,7 @@
   <?php } ?>
   <?php } ?>
 </div>
-// <script type="text/javascript"><!--
+ <script type="text/javascript"><!--
 // var banner = function() {
 // 	$('#banner<?php echo $module; ?>').cycle({
 // 		before: function(current, next) {
@@ -17,4 +17,4 @@
 // }
 
 // setTimeout(banner, 2000);
-// //--></script>
+//</script>
